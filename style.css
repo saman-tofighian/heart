@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #123;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    height: 100vh;
+}
+h1{
+    font-size: 12rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: #288;
+    z-index: 999;
+}
+span{
+    transform: translate(-50%,-50%);
+    display: block;
+    position: absolute;
+    background-size: 100% 100%;
+    background-image: url(img/Succodesign-Love-Is-In-The-Web-Heart.ico);
+}
